@@ -1,0 +1,23 @@
+{
+  "name": "bundle-assignment",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "develop": "webpack --mode development --watch",
+    "build": "webpack --mode production",
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "eslint": "^7.19.0",
+    "eslint-config-airbnb-base": "^14.2.1",
+    "eslint-plugin-import": "^2.22.1",  
+    "webpack": "^5.23.0",
+    "webpack-cli": "^4.5.0"
+  },
+  "dependencies": {
+    "lodash": "^4.17.21"
+  },
+  "description": ""
+}
